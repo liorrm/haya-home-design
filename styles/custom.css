@@ -4,7 +4,7 @@
 
 .img-container {
   display: inline-block;
-  width: 300px;
+  width: 270px;
   padding: 1%;
 }
 
@@ -48,10 +48,10 @@
 
 @media (max-width: 550px) {
   .project-title {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .navbar-brand {
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 }
