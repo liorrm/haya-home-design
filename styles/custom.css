@@ -1,4 +1,52 @@
-.home-img {
+.img-container {
+  display: table-cell;
+  padding: 1%;
+}
+
+.house-img {
   max-width: 100%;
   max-height: 100%;
+  /*position: center;*/
+  border: 0px solid black;
+  border-radius: 5px;
+}
+
+.project-title {
+  font-family: "Helvetica Neue";
+  font-weight: 100;
+  font-size: 2em;
+  text-align: center;
+}
+
+.navbar-brand {
+  margin-left: 0px;
+  color: rgb(220,220,220) !important;
+}
+
+.footer {
+  color: #9d9d9d;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #222;
+}
+
+@media (max-width: 700px) {
+  .project-title {
+    font-size: 1.5em;
+  }
+
+  .navbar-brand {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 550px) {
+  .project-title {
+    font-size: 1em;
+  }
+
+  .navbar-brand {
+    font-size: 0.8em;
+  }
 }
