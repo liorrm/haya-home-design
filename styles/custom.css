@@ -11,7 +11,6 @@
 .house-img {
   max-width: 100%;
   max-height: 100%;
-  /*position: center;*/
   border: 0px solid black;
   border-radius: 5px;
 }
@@ -26,6 +25,13 @@
 .navbar-brand {
   margin-left: 0px;
   color: rgb(220,220,220) !important;
+}
+
+.youtube {
+  display: inline-block;
+  width: 560px;
+  height: 315px;
+  padding: 1%;
 }
 
 .footer {
@@ -44,6 +50,11 @@
   .navbar-brand {
     font-size: 1em;
   }
+
+  .youtube {
+    width: 392px;
+    height: 220px;
+  }
 }
 
 @media (max-width: 550px) {
@@ -54,4 +65,8 @@
   .navbar-brand {
     font-size: 0.7em;
   }
+
+  .youtube {
+    width: 280px;
+    height: 158px;
 }
