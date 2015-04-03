@@ -27,6 +27,12 @@
   color: rgb(220,220,220) !important;
 }
 
+.navbar-brand a:hover {
+  text-decoration: none;
+  color: rgb(220, 200, 255);
+
+}
+
 .youtube {
   display: inline-block;
   width: 560px;
