@@ -16,7 +16,7 @@
 }
 
 .project-title {
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", Helvetica, "Liberation Sans", Arial, sans-serif;
   font-weight: 100;
   font-size: 2em;
   text-align: center;
