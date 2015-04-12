@@ -1,9 +1,15 @@
-.navbar .container {
-  margin-left: 5px;
-}
 
 .jumbotron {
   text-align: center;
+}
+
+.jumbotron.about {
+  text-align: left;
+}
+
+.bio {
+  /*float: right;*/
+  word-wrap: break-word
 }
 
 .img-container {
@@ -17,6 +23,11 @@
   max-height: 100%;
   border: 0px solid black;
   border-radius: 5px;
+}
+
+.selfie {
+  float: left;
+  overflow: hidden;
 }
 
 .project-title {
@@ -70,6 +81,10 @@
 @media (max-width: 550px) {
   .project-title {
     font-size: 0.8em;
+  }
+
+  .bio p {
+    font-size: 0.9em;
   }
 
   .navbar-brand {
