@@ -108,7 +108,11 @@ a.navbar-brand.phone-number {
     height: 138px;
   }
 
+  .navbar-brand {
+    padding-right: 5px;
+  }
+
   a.navbar-brand.phone-number {
-    padding-left: 20px;
+    padding-left: 0px;
   }
 }
