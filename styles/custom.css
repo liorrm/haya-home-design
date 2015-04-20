@@ -114,6 +114,11 @@ span.navbar-brand.phone-number {
     padding-right: 5px;
   }
 
+  .phone-img {
+    padding-right: 5px;
+    padding-left: 20px;
+  }
+
   span.navbar-brand.phone-number {
     padding-left: 0px;
   }
