@@ -61,8 +61,13 @@
 
 .phone-img {
   max-width: 100%;
-  max-height: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
   padding-right: 10px;
+}
+
+.bio-paragraph {
+  line-height: 27px;
 }
 
 span.navbar-brand.phone-number {
