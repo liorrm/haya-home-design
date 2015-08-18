@@ -3,12 +3,15 @@
   text-align: center;
 }
 
+.jumbotron p {
+  line-height: 27px;
+}
+
 .jumbotron.about {
   text-align: left;
 }
 
 .bio {
-  /*float: right;*/
   word-wrap: break-word
 }
 
@@ -26,9 +29,11 @@
 }
 
 .selfie {
+  width: 320px;
   float: left;
   overflow: hidden;
   text-align: center;
+  margin: 0px 20px 10px 0px;
 }
 
 .project-title {
@@ -69,7 +74,6 @@
 }
 
 .bio-paragraph {
-  font-size: 18px !important;
   line-height: 27px;
 }
 
@@ -104,15 +108,20 @@ span.navbar-brand.phone-number {
     width: 392px;
     height: 220px;
   }
+
+  .phone-img {
+    padding-right: 5px;
+    padding-left: 10px;
+  }
 }
 
 @media (max-width: 590px) {
   .project-title {
-    font-size: 0.8em;
+    font-size: 1.5em;
   }
 
   .jumbotron p {
-    font-size: 0.9em;
+    font-size: 17px;
   }
 
   .navbar-brand {
@@ -130,7 +139,11 @@ span.navbar-brand.phone-number {
 
   .phone-img {
     padding-right: 5px;
-    padding-left: 20px;
+    padding-left: 10px;
+  }
+
+  .navbar-toggle.collapsed {
+    display: none;
   }
 
   span.navbar-brand.phone-number {
