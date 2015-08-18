@@ -21,7 +21,7 @@
   padding: 1%;
 }
 
-.house-img {
+.img-resize {
   max-width: 100%;
   max-height: 100%;
   border: 0px solid black;
@@ -88,6 +88,7 @@ span.navbar-brand.phone-number {
 
 .barnes-button {
   float: right;
+  padding-right: 10px;
 }
 
 .footer {
