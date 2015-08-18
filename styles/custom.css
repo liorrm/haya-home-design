@@ -81,6 +81,11 @@ span.navbar-brand.phone-number {
   padding-left: 50px;
 }
 
+.facebook-button {
+  float: right;
+  padding: 10px 10px 0px 0px;
+}
+
 .footer {
   color: #9d9d9d;
   bottom: 0;
