@@ -125,6 +125,7 @@ span.navbar-brand.phone-number {
   }
 }
 
+
 @media (max-width: 590px) {
   .project-title {
     font-size: 1.5em;
@@ -158,5 +159,11 @@ span.navbar-brand.phone-number {
 
   span.navbar-brand.phone-number {
     padding-left: 0px;
+  }
+}
+
+@media (max-width: 480px) and (min-width: 407px) {
+  .selfie {
+    margin: 0px 45px 10px 15px;
   }
 }
